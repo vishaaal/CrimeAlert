@@ -1,6 +1,6 @@
 # CrimeAlert
 
-### About 🚨
+## About 🚨
 
 ### A web based application to report crimes happening around and having a record of the same.
 
