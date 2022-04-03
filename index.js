@@ -10,5 +10,6 @@ function myfunc() {
    var address =  localStorage.setItem('address', address);
    var address =  localStorage.setItem('topic', topic);
    var subject =  localStorage.setItem('subject', subject);
+   alert("Complaint registered successfully");
 
 }
