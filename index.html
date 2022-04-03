@@ -15,6 +15,7 @@
       crossorigin="anonymous"
     />
     <title>Crime Alert</title>
+    <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -88,17 +89,16 @@
         <div>
             <img src="/crime.svg" alt="icon">
              </div>
-        <input type="text" placeholder="Name (required)" required>
-        <input type="text" placeholder="Contact" required>
-        <input type="text" placeholder="Address (required)" required>
-        <input type="text" placeholder="Topic (required)" required>
-        <textarea placeholder="Subject (required)" required></textarea>
-        <input type="submit" value="Send">
+        <input type="text" id="full_name" placeholder="Name" required>
+        <input type="text" id="contact" placeholder="Contact" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="text" id="topic" placeholder="Topic" required>
+        <textarea id="subject" placeholder="Subject" required></textarea>
+        <input type="submit" onclick="myfunc()" value="Send">
       </form>
 
 </div>
-    
+ 
 
-    <!-- <script src="navbar.js"></script> -->
   </body>
 </html>
